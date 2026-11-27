@@ -715,7 +715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zxpMiJdTzFRGIJqly-GL" name="Page-5">
-    <mxGraphModel dx="2125" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2024" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -815,9 +815,6 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-30" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Publish batch to RabbitMQ" vertex="1">
           <mxGeometry height="60" width="120" x="1157.5" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="meQR4xz_dRWc00rNBahI-1" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-36" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Keep last checkpoint and mark job (Failed/Paused)" vertex="1">
           <mxGeometry height="60" width="120" x="1157.5" y="680" as="geometry" />
         </mxCell>
@@ -854,6 +851,9 @@
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-46" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Keep last checkpoint and mark job (Failed/Paused)" vertex="1">
           <mxGeometry height="60" width="120" x="953.7499999999995" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="meQR4xz_dRWc00rNBahI-1" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-47" parent="SXbVAEY8xI-4Yi56HbnX-1" style="swimlane;startSize=20;html=1;" value="Database" vertex="1">
           <mxGeometry height="800" width="152.5" x="1510" y="20" as="geometry" />
@@ -900,6 +900,11 @@
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-60" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-1" source="SXbVAEY8xI-4Yi56HbnX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-44">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="meQR4xz_dRWc00rNBahI-5" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.8985" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
