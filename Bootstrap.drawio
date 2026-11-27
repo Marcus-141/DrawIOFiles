@@ -715,7 +715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zxpMiJdTzFRGIJqly-GL" name="Page-5">
-    <mxGraphModel dx="1469" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -754,7 +754,7 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-11" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-12" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Text" vertex="1">
+        <mxCell id="SXbVAEY8xI-4Yi56HbnX-12" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Resume" vertex="1">
           <mxGeometry relative="1" x="-0.4797" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -774,7 +774,7 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-17" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-18" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Load checkpoint from redis and update status to &quot;In progress&quot;" vertex="1">
+        <mxCell id="SXbVAEY8xI-4Yi56HbnX-18" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Load checkpoint from ops_bootstrap_status and update status to &quot;In progress&quot;" vertex="1">
           <mxGeometry height="60" width="120" x="202.5" y="170" as="geometry" />
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-19" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-22" value="">
@@ -815,17 +815,11 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-30" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Publish batch to RabbitMQ" vertex="1">
           <mxGeometry height="60" width="120" x="1157.5" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-33" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-36" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-34" parent="SXbVAEY8xI-4Yi56HbnX-5" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Retry limit reached?" vertex="1">
-          <mxGeometry height="80" width="92.5" x="1171.25" y="410" as="geometry" />
-        </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-35" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-37">
+        <mxCell id="meQR4xz_dRWc00rNBahI-1" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-36" parent="SXbVAEY8xI-4Yi56HbnX-5" style="whiteSpace=wrap;html=1;" value="Keep last checkpoint and mark job (Failed/Paused)" vertex="1">
-          <mxGeometry height="60" width="120" x="1157.5" y="540" as="geometry" />
+          <mxGeometry height="60" width="120" x="1157.5" y="680" as="geometry" />
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-37" parent="SXbVAEY8xI-4Yi56HbnX-5" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Resume later form last marked checkpoint" vertex="1">
           <mxGeometry height="80" width="120" x="953.4999999999995" y="670" as="geometry" />
@@ -833,16 +827,16 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-38" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="meQR4xz_dRWc00rNBahI-2" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.6402" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-39" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-5" source="SXbVAEY8xI-4Yi56HbnX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-40" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="NO" vertex="1">
           <mxGeometry relative="1" x="0.0043" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-41" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Text" vertex="1">
-          <mxGeometry relative="1" x="-0.3436" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -894,11 +888,13 @@
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-57" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-1" source="SXbVAEY8xI-4Yi56HbnX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SXbVAEY8xI-4Yi56HbnX-58" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-1" source="SXbVAEY8xI-4Yi56HbnX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SXbVAEY8xI-4Yi56HbnX-58" edge="1" parent="SXbVAEY8xI-4Yi56HbnX-1" source="SXbVAEY8xI-4Yi56HbnX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="SXbVAEY8xI-4Yi56HbnX-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1446.25" y="470.0000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SXbVAEY8xI-4Yi56HbnX-59" connectable="0" parent="SXbVAEY8xI-4Yi56HbnX-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
-          <mxGeometry relative="1" x="-0.6931" y="1" as="geometry">
+          <mxGeometry relative="1" x="-0.7269" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
